@@ -1,8 +1,8 @@
 // components/Navbar.js
 import React from 'react';
-import './Navbar.css';
+import './NavBar.css';
 
-const Navbar = () => {
+const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="left">
@@ -22,4 +22,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;

@@ -1,14 +1,15 @@
 import './App.css';
-import Navbar from './Components/Navbar';
+import Body from './Components/Body';
+import NavBar from './Components/NavBar';
 import SideNavbar from './Components/SideNavbar';
 
 
 function App() {
   return (
     <>
-      <Navbar/>
+      <NavBar/>
       <SideNavbar/>
-      
+      <Body/>
      </>
   )
 }
